@@ -1,0 +1,18 @@
+# 使用方法
+
+## コマンド
+### reverse 
+・input.txtの内容を逆順にしてoutput.txtに出力する
+php fileManipulation.php reverse [読み込みファイル] [出力ファイル]
+
+### copy
+・input.txtの内容を複製してoutput.txtに出力する
+php fileManipulation.php copy [読み込みファイル] [出力ファイル] [複製回数]
+
+### duplicate-contents
+・input.txtの内容を複製する
+php fileManipulation.php duplicate-contents [読み込みファイル] [複製回数]
+
+### replace-string
+・input.txtの内容を置換する
+php fileManipulation.php replace-string [読み込みファイル] [置換したい文字列] [置換後の文字列]
